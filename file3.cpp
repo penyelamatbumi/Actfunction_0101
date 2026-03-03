@@ -21,4 +21,15 @@ int kelilingpersegi(int a, int b)
 {
     return 2 * (a + b);
 }
+void output()
+{
+    cout << "Luas persegi: " << luaspersegi(panjang, lebar) << endl;
+    cout << "Keliling persegi: " << kelilingpersegi(panjang, lebar) << endl;
+}
+
+int main()
+{
+    input();
+    output();
+}
 
