@@ -3,6 +3,6 @@
 using namespace std;
 
 float jarijari;
-float phi:3.14159
+float phi=3.14159;
 
 
