@@ -10,3 +10,9 @@ void input()
     cout << "masukkan jarijari: ";
     cin >> jarijari;
 }
+
+float luas (float jarijari,float phi)
+{
+    return phi*jarijari*jarijari;
+}
+
